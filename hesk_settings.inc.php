@@ -5,9 +5,9 @@
 
 // --> General settings
 $hesk_settings['site_title']='SUPORTE - SRT';
-$hesk_settings['site_url']='http://192.168.4.111';
+$hesk_settings['site_url']='http://10.0.20.59';
 $hesk_settings['hesk_title']='SUPORTE - SRT';
-$hesk_settings['hesk_url']='http://192.168.4.111/HESK';
+$hesk_settings['hesk_url']='http://10.0.20.59/HESK';
 $hesk_settings['webmaster_mail']='seap.srt@gmail.com';
 $hesk_settings['noreply_mail']='seap.srt@gmail.com';
 $hesk_settings['noreply_name']='SRT';
@@ -48,10 +48,10 @@ $hesk_settings['limit_width']=800;
 // --> Features
 $hesk_settings['autologin']=1;
 $hesk_settings['autoassign']=1;
-$hesk_settings['require_email']=1;
+$hesk_settings['require_email']=0;
 $hesk_settings['require_owner']=0;
 $hesk_settings['require_subject']=1;
-$hesk_settings['require_message']=1;
+$hesk_settings['require_message']=0;
 $hesk_settings['custclose']=1;
 $hesk_settings['custopen']=1;
 $hesk_settings['rating']=1;
@@ -59,7 +59,7 @@ $hesk_settings['cust_urgency']=0;
 $hesk_settings['sequential']=1;
 $hesk_settings['time_worked']=1;
 $hesk_settings['spam_notice']=1;
-$hesk_settings['list_users']=0;
+$hesk_settings['list_users']=1;
 $hesk_settings['debug_mode']=0;
 $hesk_settings['short_link']=0;
 $hesk_settings['select_cat']=0;
@@ -68,7 +68,7 @@ $hesk_settings['cat_show_select']=15;
 
 // --> SPAM Prevention
 $hesk_settings['secimg_use']=0;
-$hesk_settings['secimg_sum']='DT34MV5AWZ';
+$hesk_settings['secimg_sum']='XU3L447DG9';
 $hesk_settings['recaptcha_use']=0;
 $hesk_settings['recaptcha_public_key']='';
 $hesk_settings['recaptcha_private_key']='';
@@ -77,10 +77,10 @@ $hesk_settings['question_ask']='What color is water? (give a 1 word answer to sh
 $hesk_settings['question_ans']='blue';
 
 // --> Security
-$hesk_settings['attempt_limit']=6;
-$hesk_settings['attempt_banmin']=60;
+$hesk_settings['attempt_limit']=11;
+$hesk_settings['attempt_banmin']=5;
 $hesk_settings['reset_pass']=1;
-$hesk_settings['email_view_ticket']=1;
+$hesk_settings['email_view_ticket']=0;
 $hesk_settings['x_frame_opt']=1;
 $hesk_settings['force_ssl']=0;
 
