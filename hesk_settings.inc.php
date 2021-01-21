@@ -59,7 +59,7 @@ $hesk_settings['cust_urgency']=0;
 $hesk_settings['sequential']=1;
 $hesk_settings['time_worked']=1;
 $hesk_settings['spam_notice']=1;
-$hesk_settings['list_users']=1;
+$hesk_settings['list_users']=0;
 $hesk_settings['debug_mode']=0;
 $hesk_settings['short_link']=0;
 $hesk_settings['select_cat']=0;
@@ -68,7 +68,7 @@ $hesk_settings['cat_show_select']=15;
 
 // --> SPAM Prevention
 $hesk_settings['secimg_use']=0;
-$hesk_settings['secimg_sum']='XU3L447DG9';
+$hesk_settings['secimg_sum']='YTRHTZ25E5';
 $hesk_settings['recaptcha_use']=0;
 $hesk_settings['recaptcha_public_key']='';
 $hesk_settings['recaptcha_private_key']='';
